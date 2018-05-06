@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
-var routes = require('./controllers/jobs_controller.js');
+var routes = require('./controllers/routes.js');
 
 // use the PORT from the remote environment,or default to a static port for testing purposes
 var PORT = process.env.PORT || 8000;

@@ -6,9 +6,8 @@ CREATE TABLE saved_jobs (
 	id INT AUTO_INCREMENT NOT NULL,
 	title VARCHAR(255) NOT NULL,
   href VARCHAR(255),
-  details VARCHAR(255),
-  salary_min INT,
-  salary_max INT,
+  company VARCHAR(255),
+  details VARCHAR(5000),
 	loc VARCHAR(255),
 	PRIMARY KEY (id)
 );
