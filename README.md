@@ -35,6 +35,7 @@ A future version would:
 A few things to keep in mind:
 * If the search doesn't work, try modifying the location queries. E.g., try changing the state 'CA' to California
 * Currently, no keys are available for the O*NET API, so the related careers list is hardcoded to software engineers :/
+* The green dot next to a related career indicates that career has a "bright outlook" (according to the government)
 
 ## The vision
 
