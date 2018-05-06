@@ -9,5 +9,6 @@ CREATE TABLE saved_jobs (
   company VARCHAR(255),
   details VARCHAR(5000),
 	loc VARCHAR(255),
+  createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY (id)
 );

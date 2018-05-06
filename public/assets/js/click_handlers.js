@@ -92,7 +92,7 @@ $(document).ready(function() {
       // handler for saving jobs if favorites button is clicked
       $('.heart').on('click',(event) => {
 
-        console.log(event.target);
+        alert('You favorited this job!');
         
         // capture the various attributes of the job that was clicked
         var title = $(event.target).attr('title');

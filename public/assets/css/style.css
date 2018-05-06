@@ -1,7 +1,9 @@
+/* background for page body */
 body {
   background-color:#e3e7ea;
 }
 
+/* styling for header */
 #top-content {
   background-color: #627c8b;
 }
@@ -37,8 +39,7 @@ li {
   color: whitesmoke;
 }
 
-/*--*/
-
+/* styling for search form */
 #main-content {
   width: 960px;
   margin: 0 auto;
@@ -97,6 +98,7 @@ button[type=submit] {
   font-size: 18px;
 }
 
+/* styling for related careers list */
 #related-careers {
   border-right: 2px solid lightgrey;
   width: 400px;
@@ -109,6 +111,15 @@ button[type=submit] {
   font-style: italic;
 }
 
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* styling for job results list */
 #job-results {
   display: inline-block;
   width: 500px;
@@ -162,14 +173,7 @@ th {
   font-size: 18px;
 }
 
-.dot {
-  height: 20px;
-  width: 20px;
-  background-color: lightgreen;
-  border-radius: 50%;
-  display: inline-block;
-}
-
+/* styling for footer */
 footer {
   margin: 40px auto;
   padding: 30px;
@@ -178,6 +182,7 @@ footer {
   font-size: 16px;
 }
 
+/* styling for saved jobs page */
 #favorites-list {
   width: 650px;
   margin: 20px auto;
